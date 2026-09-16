@@ -1,13 +1,3 @@
-"""Tests that make the professor's three hardening requirements concrete:
-
-1. NFA/DFA state explosion is handled safely (lazy DFA, not eager subset
-   construction).
-2. Long regexes and long input strings are handled without blowing up
-   (linear time, no recursion errors).
-3. Ambiguous/invalid regex and invalid input are handled gracefully
-   (typed errors, never a raw traceback / crash).
-"""
-
 import time
 from collections import deque
 
