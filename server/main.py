@@ -1,9 +1,3 @@
-"""FastAPI backend for the Regex Matching Engine dashboard.
-
-Serves the matching API, an NFA/DFA graph API for the visualization tab,
-a predefined test-suite endpoint, and the static dashboard itself.
-"""
-
 from __future__ import annotations
 
 from collections import deque
